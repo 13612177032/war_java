@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PluginProjectConfig">
+    <option name="path" value="D:/" />
+    <option name="sql" value="CREATE TABLE 'mark_act' (&#10;  'id' bigint(20) NOT NULL AUTO_INCREMENT,&#10;  'mark_id' bigint(20) DEFAULT NULL COMMENT '对应的标签id',&#10;  'caculate_type' varchar(20) NOT NULL COMMENT '计算方式：加，或，和，max,min等',&#10;  'cal_data' varchar(20) NOT NULL COMMENT '计算方式(默认H+R1+R2 , H:原标签，R0:今天 ，R1:redis昨天)',&#10;  'value_type' varchar(20) NOT NULL COMMENT 'Redis转Hbase数据的格式,目前支持\r\nDOUBLE，\r\nLONG,\r\n//数值型支持sum、max、min、set、setNx等操作\r\nSTRING,\r\n//字符串型支持set、setNx等操作\r\nBOOL(数字0或者1),\r\n//BOOL型支持 AND，OR，XOR，SET,SETNX操作\r\nDATE\r\n//同字符串操作',&#10;  'value_desc' varchar(50) NOT NULL COMMENT '值描述:\r\n数值型为修正:100或者0.01(乘与)\r\n日期为格式：yyyy-MM-dd\r\nbool:num(0或1),str(true或false)',&#10;  'status' char(1) NOT NULL COMMENT '状态：1启用，2禁用',&#10;  'update_user' varchar(50) DEFAULT NULL,&#10;  'update_time' timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,&#10;  'create_user' varchar(50) DEFAULT NULL,&#10;  'create_time' timestamp NULL DEFAULT CURRENT_TIMESTAMP,&#10;  PRIMARY KEY ('id')&#10;) " />
+  </component>
+</project>

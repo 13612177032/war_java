@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: opencv-rdp:opencv-rdp:1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/opencv-rdp/opencv-rdp/1.0-SNAPSHOT/opencv-rdp-1.0-20170621.082539-1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/opencv-rdp/opencv-rdp/1.0-SNAPSHOT/opencv-rdp-1.0-20170621.082539-1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/opencv-rdp/opencv-rdp/1.0-SNAPSHOT/opencv-rdp-1.0-20170621.082539-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

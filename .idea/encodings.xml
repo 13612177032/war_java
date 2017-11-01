@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AutoCheck" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chart_room" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lucky" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mojotest" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/reday" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/robot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sort" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spark_web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/thread" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/watermark" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wolf_kill" charset="UTF-8" />
+  </component>
+</project>

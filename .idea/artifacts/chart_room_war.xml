@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="chart_room:war">
+    <output-path>$PROJECT_DIR$/chart_room/target</output-path>
+    <root id="archive" name="chart_room-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="chart_room:war exploded" />
+    </root>
+  </artifact>
+</component>

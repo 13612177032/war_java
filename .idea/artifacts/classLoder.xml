@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="classLoder">
+    <output-path>$PROJECT_DIR$/out/artifacts/classLoder</output-path>
+    <root id="archive" name="classLoder.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/AutoCheck/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>

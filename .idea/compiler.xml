@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="AutoCheck" />
+        <module name="chart_room" />
+        <module name="example" />
+        <module name="lucky" />
+        <module name="mojotest" />
+        <module name="mybatis" />
+        <module name="reday" />
+        <module name="robot" />
+        <module name="sort" />
+        <module name="spark_web" />
+        <module name="thread" />
+        <module name="watermark" />
+        <module name="wolf_kill" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AutoCheck" target="1.6" />
+      <module name="chart_room" target="1.6" />
+      <module name="example" target="1.6" />
+      <module name="lucky" target="1.6" />
+      <module name="mojotest" target="1.6" />
+      <module name="mybatis" target="1.6" />
+      <module name="reday" target="1.6" />
+      <module name="robot" target="1.6" />
+      <module name="sort" target="1.6" />
+      <module name="spark_web" target="1.6" />
+      <module name="thread" target="1.6" />
+      <module name="war_java" target="1.6" />
+      <module name="watermark" target="1.6" />
+      <module name="wolf_kill" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

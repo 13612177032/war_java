@@ -1,9 +1,30 @@
 package com.chale.chart.model;
 
+import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson.TypeReference;
+
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 public class ChartRoom {
+
+
+    public static void main(String[] args) throws ClassNotFoundException {
+
+        String source="[{\"id\":111,\"name\":\"xxxxx\"},{\"id\":222,\"name\":\"SSS\"},{\"id\":333,\"name\":\"yyy\"}]";
+        String config="com.chale.chart.model.ChartRoom";
+        boolean isArray=true;
+
+
+
+        Object  o=JSONObject.parseObject(source, new TypeReference<List<ChartRoom>>(){});
+
+        System.out.println(o);
+    }
+
     private Long id;
+
 
     private String name;
 
